@@ -1,0 +1,23 @@
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<div id="app">
+    <button @click="count++">{{ count }}</button>
+</div>
+<script>
+    const { createApp, ref } = Vue
+  
+    const tcount = ref(0)
+
+    console.log(tcount)
+    console.log(tcount.value)
+    tcount.value++
+    console.log(tcount.value)
+
+
+    createApp({
+        data() {
+    return {
+      count: 0
+    }
+  }
+    }).mount('#app')
+  </script>
