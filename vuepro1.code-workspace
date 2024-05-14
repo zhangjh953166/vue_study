@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../gitbook_doc"
+		},
+		{
+			"path": "../video_show"
+		},
+		{
+			"path": "../python1"
+		}
+	],
+	"settings": {
+		"Codegeex.CompletionModel": "CodeGeeX Pro[Beta]"
+	}
+}
